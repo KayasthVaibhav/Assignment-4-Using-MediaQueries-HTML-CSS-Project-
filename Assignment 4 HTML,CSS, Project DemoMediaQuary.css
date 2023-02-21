@@ -1,0 +1,120 @@
+
+/* Screen Size:
+    - Larger Screen: 1440;
+    - Normal Screen: 1024;
+    - Tablet Screen:  768;
+    - Mobile Screen:  425;
+    */
+    .contanier{
+             display: flex;
+
+    }
+    .box{
+        display:none;
+        height: 340px;
+        width: 340px;
+        border: 2px solid black;
+    }
+  
+   
+    @media screen and (min-width: 1648px){  
+.contanier{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+   display: block;
+   width: 100%;
+   height: 600px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 600;
+   font-size: 50px;
+   background-color: rgb(127, 255, 212);
+
+}
+    }
+
+     @media screen and (min-width: 1440px)and (max-width: 1648px){  
+.contanier{
+    display: flex;
+    flex-direction: row;
+}
+.box2{
+   display: block;
+   width: 100%;
+   height: 600px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 600;
+   font-size: 50px;
+   background-color: green;
+}
+    } 
+
+     @media screen and (min-width: 1024px) and (max-width:1440px){  
+.contanier{
+    display: flex;
+    flex-direction: row;
+}
+.box3{
+   display: block;
+   width: 100%;
+   height: 600px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 600;
+   font-size: 50px;
+   background-color: rgb(152, 89, 6);
+}
+    } 
+
+    @media screen and (min-width: 768px) and (max-width:1023px){  
+.contanier{
+    display: flex;
+    flex-direction: row;
+}
+.box4{
+   display: block;
+   width: 100%;
+   height: 600px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 600;
+   font-size: 50px;
+   background-color: aqua;
+}
+    } 
+    @media screen and (min-width: 425px) and (max-width:767px){  
+.contanier{
+    display: flex;
+    flex-direction: row;
+}
+.box5{
+   display: block;
+   width: 100%;
+   height: 600px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 600;
+   font-size: 50px;
+   background-color: maroon;
+}
+    } 
+
+    @media screen and (max-width: 425px){  
+.contanier{
+    display: flex;
+    flex-direction: row;
+}
+.box6{
+   display: block;
+   width: 100%;
+   height: 600px;
+   border-radius: 10px;
+   text-align: center;
+   font-weight: 600;
+   font-size: 50px;
+   background-color: purple;
+}
+    } 
